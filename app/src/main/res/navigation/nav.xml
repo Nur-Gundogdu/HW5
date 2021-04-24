@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/anaFragment">
+
+    <fragment
+        android:id="@+id/carpimfragment"
+        android:name="com.nurgundogdu.hw5.CarpimFragment"
+        android:label="fragment_carpim"
+        tools:layout="@layout/fragment_carpim" />
+    <fragment
+        android:id="@+id/toplamaSonuc"
+        android:name="com.nurgundogdu.hw5.ToplamaSonuc"
+        android:label="fragment_toplama_sonuc"
+        tools:layout="@layout/fragment_toplama_sonuc" />
+    <fragment
+        android:id="@+id/carpimSonuc"
+        android:name="com.nurgundogdu.hw5.CarpimSonuc"
+        android:label="fragment_carpim_sonuc"
+        tools:layout="@layout/fragment_carpim_sonuc" />
+    <fragment
+        android:id="@+id/anaFragment"
+        android:name="com.nurgundogdu.hw5.AnaFragment"
+        android:label="fragment_ana"
+        tools:layout="@layout/fragment_ana" />
+    <fragment
+        android:id="@+id/toplamafragment"
+        android:name="com.nurgundogdu.hw5.ToplamaFragment"
+        android:label="fragment_toplama"
+        tools:layout="@layout/fragment_toplama" />
+</navigation>

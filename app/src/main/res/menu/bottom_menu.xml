@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toplamafragment"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="toplama" />
+    <item
+        android:id="@+id/carpimfragment"
+        android:icon="@drawable/ic_baseline_close_24"
+        android:title="carpim" />
+</menu>
